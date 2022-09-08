@@ -31,7 +31,7 @@ document.querySelector('.check').addEventListener('click', function () {
     //guessed number higher
     else if(guess !== randomNumber) {
         if (score.textContent > 0) {
-            displayMessage(guess > randomNumber ? displayMessage('Too High‼🙄') : displayMessage('Too Low‼😶'));
+            displayMessage(guess > randomNumber ? ('Too High‼🙄') : ('Too Low‼😶'));
             score.textContent -= 1;
 
         //user loses the game
